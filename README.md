@@ -71,3 +71,13 @@ async getBooksAndAuthor(authorId) {
 
 > **Fetch()**  
 Fetch API предоставляет интерфейс JavaScript для работы с запросами и ответами HTTP. Он также предоставляет глобальный метод fetch() (en-US), который позволяет легко и логично получать ресурсы по сети асинхрониний
+
+**axios**   
+Axios-этоHTTP-клиент, основанный наPromise дляnode.js и браузера. Он может работать вбраузере иnode.js с той же базой кодов.
+
+**const postCreate = async () =>    
+{ try {   
+  const { data } = await axios.get  (`url`) }   catch (error) 
+  {
+}
+}**
